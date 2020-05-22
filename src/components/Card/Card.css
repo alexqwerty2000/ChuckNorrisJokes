@@ -1,0 +1,55 @@
+.card{
+    margin: 20px 0;
+    position: relative;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #e4e4e4;
+}
+.card-view{
+    display: flex;
+}
+.text-block{
+    margin: 67px 40px 25px 0;
+}
+.joke-info{
+    font-size: 10px;
+}
+.card-text{
+    font-size: 18px;
+}
+.fa-heart{
+    position: absolute;
+    top:40px;
+    right:40px;
+    color: red;
+}
+.heart-regular{
+    position: absolute;
+    top:40px;
+    right:40px;
+    width:20px;
+    height:17px;
+    background: url('../../images/heartp.png');
+}
+.heart-solid{
+    position: absolute;
+    top:40px;
+    right:40px;
+    width:20px;
+    height:17px;
+    background: url('../../images/hearts.png');
+}
+.joke-id{
+    color: #8EA7FF;
+    text-decoration: underline;
+}
+.joke-update{
+    margin: 23px 0;
+    font-size: 10px;
+}
+.button-choose{
+    margin: 10px 10px 20px 0;
+    padding: 6px 15px;
+    border-radius: 6px;
+    background-color: #F8F8F8;
+}

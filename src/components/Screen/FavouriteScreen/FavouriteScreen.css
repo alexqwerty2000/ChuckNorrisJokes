@@ -1,0 +1,51 @@
+.container-favourite{
+    width: 90%;
+    height: 100vh;
+}
+.favourite-header{
+    position: absolute;
+    top: 40px;
+    font-size: 22px;
+}
+.joke-list{
+    margin: 80px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+}
+.favourite-header{
+    color: #ABABAB;            
+}
+@media (max-width: 830px){
+    .favourite-header{
+        visibility: hidden;
+    }
+    .container-favourite{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top:0;
+        right: 0;
+        width: 60%;
+        z-index:20;
+        background-color: #fff;
+    }
+}
+@media (max-width: 420px){
+    .favourite-header{
+        visibility: hidden;
+    }
+    .container-favourite{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top:0;
+        right: 0;
+        width: 100%;
+        z-index:20;
+        background-color: #fff;
+    }
+    .joke-list{
+        padding: 0;
+        list-style-type: none;
+    }
+}
